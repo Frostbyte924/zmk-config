@@ -1,0 +1,16 @@
+if SHIELD_CONTOUR_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Contour KB"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_CONTOUR_LEFT || SHIELD_CONTOUR_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
