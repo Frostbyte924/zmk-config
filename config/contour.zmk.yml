@@ -1,0 +1,8 @@
+file_format: "1"
+id: contour
+name: Contour
+type: shield
+url: https://github.com/Frostbyte924/zmk-config
+requires: [pro_micro]
+features:
+  - keys

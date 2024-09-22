@@ -1,0 +1,5 @@
+config SHIELD_CONTOUR_LEFT
+    def_bool $(shields_list_contains,contour_left)
+
+config SHIELD_CONTOUR_RIGHT
+    def_bool $(shields_list_contains,contour_right)
