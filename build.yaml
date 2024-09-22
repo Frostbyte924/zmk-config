@@ -19,6 +19,4 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: contour_left
-  - board: nice_nano_v2
-    shield: contour_right
+    shield: contour
